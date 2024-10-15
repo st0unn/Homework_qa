@@ -37,3 +37,5 @@ console.log (false && true || true) //результат true, логічне "i
 console.log (false && (false || true)) //результат false, логічне "або" між false та true дає true, логічне "і" false та true дає false
 
 console.log((+null == false) < 1 ** 5) //результат false, +null стає 0, 0 == false дає true, 1 в степені 5 дає 1, true не менше ніж 1, тому відповідь false
+
+console.log(''== 0)
