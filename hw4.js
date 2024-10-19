@@ -20,7 +20,7 @@ function randomGen (amNum) {
             }
         }
         checkProbEv=(evenNum/countNum*100).toFixed(1); //відсоток парних
-        checkProbOd=(oddNum/countNum*100).toFixed(1); //відсоток парних
+        checkProbOd=(oddNum/countNum*100).toFixed(1); //відсоток непарних
 
 
     return 'Amount of numbers=' + countNum +'\n Even numbers=' +  evenNum +'\n Odd numbers=' +  oddNum +'\n Percentage ratio even =' +  checkProbEv + '%' +'\n Percentage ratio odd =' +  checkProbOd + '%'
